@@ -19,7 +19,7 @@ BastionLimit Go is a flexible and efficient rate limiting package for Go, design
 To install BastionLimit Go, use the following command.
 
 ```bash
-go get github.com/arkamfahry/bastionlimit-go
+go get github.com/pixeldump/bastionlimit-go
 ```
 
 ## Usage
@@ -34,7 +34,7 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/arkamfahry/bastionlimit-go/leakybucket"
+	"github.com/pixeldump/bastionlimit-go/leakybucket"
 	"github.com/go-redis/redis/v9"
 )
 
